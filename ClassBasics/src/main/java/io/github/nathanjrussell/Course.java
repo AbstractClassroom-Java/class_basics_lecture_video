@@ -46,5 +46,13 @@ public class Course {
         System.out.println("Hello");
     }
 
+    public String toString() {
+        String courseInfo = "Course Information:";
+        courseInfo += "\nCredit Hours: " + this.creditHours;
+        courseInfo += "\nCourse Title: " + this.title;
+        courseInfo += "\nCourse Description: " + this.description;
+        return courseInfo;
+    }
+
 
 }
